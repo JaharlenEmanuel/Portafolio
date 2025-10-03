@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/output.css" />
+    <title>Portafolio</title>
+  </head>
+  <body
+    class="bg-gradient-to-b min-h-screen from-[#0d1b2a] to-black text-white font-[orbitron]"
+  >
+    <header
+      class="h-[30%] flex flex-row gap-20 items-center justify-center py-10 text-center"
+    >
+      <div class="relative w-28 h-28 mb-6 size-[10%]">
+        <div
+          class="absolute inset-0 rounded-full border-4 border-cyan-400 animate-ping"
+        ></div>
+        <div
+          class="absolute inset-0 rounded-full border-4 border-cyan-500"
+        ></div>
+      </div>
+      <div class="flex flex-col justify-center items-center">
+        <h1 class="text-5xl font-bold drop-shadow-[0_0_20px_#00bfff]">
+          Jaharlen Arcela
+        </h1>
+        <p>Desarrollador Web ⚔️ Inspirado en SAO</p>
+      </div>
+    </header>
+    <!-- navbar -->
+    <nav class="flex justify-center flex-wrap gap-6 p-5 text-lg font-semibold">
+      <a href="#inicio" class="hover:text-cyan-400"> Inicio </a>
+      <a href="#sobre-mi" class="hover:text-cyan-400"> Sobre mí </a>
+      <a href="#proyectos" class="hover:text-cyan-400"> Proyectos </a>
+      <a href="#habilidades" class="hover:text-cyan-400"> Habilidades </a>
+      <a href="#contacto" class="hover:text-cyan-400"> Contacto </a>
+    </nav>
+    <main
+      class="bg-gradient-to-b from-[#0d1b2a] to-black text-white font-[Orbitron]"
+    >
+      <section id="inicio" class="text-center py-20">
+        <h2 class="text-4xl font-bold drop-shadow-[0_0_10px_#00bfff]">
+          Bienvenidos a Mi Mundo Digital
+        </h2>
+        <p class="text-xl mt-4 text-cyan-300">
+          Explora mis proyectos y habilidades
+        </p>
+      </section>
+      <!-- sobre mi -->
+      <section
+        id="sobre-mi"
+        class="max-w-4xl mx-auto p-8 md:p-10 rounded-lg border-2 border-b-cyan-400 shadow-[0_0_15px_#00bfff] bg-black/60 mb-12"
+      >
+        <h2 class="text-3xl font-bold drop-shadow-[0_0_10px_#00bfff] mb-6">
+          Sobre Mí
+        </h2>
+        <p>
+          Soy un Apasionado del Desarrollo Web con un estilo inspirado en la
+          estética futurista de SAO. Me encanta crear interfaces que mezclen
+          tecnología y creatividad.
+        </p>
+      </section>
+      <!-- habilidades -->
+      <section id="habilidades" class="max-w-5xl mx-auto p-10 mb-12">
+        <h2
+          class="text-3xl font-bold drop-shadow-[0_0_10px_#00bfff] mb-8 text-center"
+        >
+          Habilidades
+        </h2>
+        <div
+          class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 text-center"
+        >
+          <div class="flex flex-col items-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+              class="w-16 h-16"
+            />
+            <p class="mt-2">HTML5</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+              class="w-16 h-16"
+            />
+            <p class="mt-2">CSS3</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+              class="w-16 h-16"
+            />
+            <p class="mt-2">JavaScript</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              class="w-16 h-16"
+            />
+            <p class="mt-2">React</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg"
+              class="w-16 h-16"
+            />
+            <p class="mt-2">Node.js</p>
+          </div>
+        </div>
+      </section>
+      <!-- Proyectos -->
+      <section id="proyectos" class="max-w-5xl mx-auto p-10 mb-12">
+        <h2
+          class="text-3xl font-bold drop-shadow-[0_0_10px_#00bfff] mb-8 text-center"
+        >
+          Proyectos
+        </h2>
+        <!-- proyecto1 -->
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <div
+            class="border-2 border-cyan-400 bg-black/60 rounded-lg shadow-[0_0_10px_#00bfff] overflow-hidden hover:scale-105 transition"
+          >
+            <a href="./proyectos/proyecto1/index.html">
+              <img
+                src="./proyectos/proyecto1/img/selfie.jpeg"
+                alt="Proyecto 1"
+                class="w-full h-40 object-cover"
+              />
+            </a>
+
+            <div class="p-4">
+              <a href="./proyectos/proyecto1/index.html">
+                <h3 class="text-xl font-bold">Proyecto 1</h3>
+              </a>
+              <p class="text-cyan-200 text-sm">
+                Esta es la Primera Practica Desarrollada en el curso de
+                Desarrollo Web de Funval .
+              </p>
+            </div>
+          </div>
+          <!-- proyecto2 -->
+          <div
+            class="border-2 border-cyan-400 bg-black/60 rounded-lg shadow-[0_0_10px_#00bfff] overflow-hidden hover:scale-105 transition"
+          >
+            <a href="./proyectos/proyecto2/index.html">
+              <img
+                src="./proyectos/proyecto2/img/practica2.jpeg"
+                alt="Proyecto 2"
+                class="w-full h-40 object-cover"
+              />
+            </a>
+
+            <div class="p-4">
+              <a href="./proyectos/proyecto2/index.html">
+                <h3 class="text-xl font-bold">Proyecto 2</h3>
+              </a>
+              <p class="text-cyan-200 text-sm">
+                Esta es la Segunda Practica Calificada de Desarrollo web de
+                Funval.
+              </p>
+            </div>
+          </div>
+          <!-- proyecto3 -->
+          <div
+            class="border-2 border-cyan-400 bg-black/60 rounded-lg shadow-[0_0_10px_#00bfff] overflow-hidden hover:scale-105 transition"
+          >
+            <a href="./proyectos/proyecto3/index.html">
+              <img
+                src="./proyectos/proyecto3/img/practica3.jpeg"
+                alt="Proyecto 3"
+                class="w-full h-40 object-cover"
+              />
+            </a>
+
+            <div class="p-4">
+              <a href="./proyectos/proyecto3/index.html">
+                <h3 class="text-xl font-bold">Proyecto 3</h3>
+              </a>
+              <p class="text-cyan-200 text-sm">
+                Esta es la Tercera Práctica Calificada de Desarrollo web de
+                Funval.
+              </p>
+            </div>
+          </div>
+          <!-- proyecto4 -->
+          <div
+            class="border-2 border-cyan-400 bg-black/60 rounded-lg shadow-[0_0_10px_#00bfff] overflow-hidden hover:scale-105 transition"
+          >
+            <a href="./proyectos/proyecto4/index.html">
+              <img
+                src="./proyectos/proyecto4/image/tictactoe.jpeg"
+                alt="Proyecto 4"
+                class="w-full h-40 object-cover"
+              />
+            </a>
+
+            <div class="p-4">
+              <a href="./proyectos/proyecto4/index.html">
+                <h3 class="text-xl font-bold">Proyecto 4</h3>
+              </a>
+              <p class="text-cyan-200 text-sm">
+                Esta es la Cuarta Practica Calificada de Desarrollo web de
+                Funval.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

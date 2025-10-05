@@ -52,7 +52,7 @@
       <!-- sobre mi -->
       <section
         id="sobre-mi"
-        class="max-w-4xl mx-auto p-8 md:p-10 rounded-lg border-2 border-b-cyan-400 shadow-[0_0_15px_#00bfff] bg-black/60 mb-12"
+        class="max-w-4xl mx-auto p-8 md:p-10 rounded-lg border-2 border-b-cyan-400 shadow-[0_0_15px_#00bfff] mb-12"
       >
         <h2 class="text-3xl font-bold drop-shadow-[0_0_10px_#00bfff] mb-6">
           Sobre Mí
@@ -64,14 +64,17 @@
         </p>
       </section>
       <!-- habilidades -->
-      <section id="habilidades" class="max-w-5xl mx-auto p-10 mb-12">
+      <section
+        id="habilidades"
+        class="max-w-5xl mx-auto p-10 mb-12 rounded-lg border-2 border-b-cyan-400 shadow-[0_0_15px_#00bfff]"
+      >
         <h2
           class="text-3xl font-bold drop-shadow-[0_0_10px_#00bfff] mb-8 text-center"
         >
           Habilidades
         </h2>
         <div
-          class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 text-center"
+          class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center"
         >
           <div class="flex flex-col items-center">
             <img
@@ -96,118 +99,232 @@
           </div>
           <div class="flex flex-col items-center">
             <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg"
               class="w-16 h-16"
             />
-            <p class="mt-2">React</p>
-          </div>
-          <div class="flex flex-col items-center">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg"
-              class="w-16 h-16"
-            />
-            <p class="mt-2">Node.js</p>
+            <p class="mt-2">Tailwind CSS</p>
           </div>
         </div>
       </section>
-      <!-- Proyectos -->
-      <section id="proyectos" class="max-w-5xl mx-auto p-10 mb-12">
+      <!-- Mi Recorrido -->
+      <section
+        id="recorrido"
+        class="max-w-6xl mx-auto px-5 py-10 text-white md:rounded-lg md:border-2 md:border-b-cyan-400 md:shadow-[0_0_15px_#00bfff]"
+      >
+        <!-- Título principal -->
         <h2
-          class="text-3xl font-bold drop-shadow-[0_0_10px_#00bfff] mb-8 text-center"
+          class="text-3xl sm:text-4xl font-bold text-center mb-12 drop-shadow-[0_0_10px_#00bfff]"
         >
-          Proyectos
+          Mi Recorrido en el Desarrollo Web
         </h2>
-        <!-- proyecto1 -->
-        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
-          <div
-            class="border-2 border-cyan-400 bg-black/60 rounded-lg shadow-[0_0_10px_#00bfff] overflow-hidden hover:scale-105 transition"
-          >
-            <a href="./proyectos/proyecto1/index.html">
-              <img
-                src="./proyectos/proyecto1/img/selfie.jpeg"
-                alt="Proyecto 1"
-                class="w-full h-40 object-cover"
-              />
-            </a>
 
-            <div class="p-4">
-              <a href="./proyectos/proyecto1/index.html">
-                <h3 class="text-xl font-bold">Proyecto 1</h3>
+        <!-- Etapa 1: Aprendizaje -->
+        <div class="mb-16">
+          <div class="text-center mb-6">
+            <h3 class="text-2xl font-semibold text-cyan-400">
+              Etapa de Aprendizaje
+            </h3>
+            <p class="text-cyan-200 mt-2 text-sm sm:text-base px-2">
+              Aquí muestro mis primeras prácticas desarrolladas durante el curso
+              de Desarrollo Web en Funval, aplicando los fundamentos de HTML y
+              CSS.
+            </p>
+          </div>
+
+          <!-- Grid de proyectos iniciales -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <!-- Proyecto 1 -->
+            <div
+              class="border-2 border-cyan-400 bg-black/60 rounded-xl shadow-[0_0_10px_#00bfff] overflow-hidden hover:scale-105 transition-transform duration-300"
+            >
+              <a href="./practicas/antes/practica1/index.html">
+                <img
+                  src="./practicas/antes/practica1/img/selfie.jpeg"
+                  alt="Practica 1"
+                  class="w-full h-44 sm:h-48 object-cover"
+                />
               </a>
-              <p class="text-cyan-200 text-sm">
-                Esta es la Primera Practica Desarrollada en el curso de
-                Desarrollo Web de Funval .
-              </p>
+              <div class="p-4">
+                <h4 class="text-lg sm:text-xl font-bold mb-1">Practica 1</h4>
+                <p class="text-cyan-200 text-sm">
+                  Mi primera práctica desarrollada con HTML y CSS básicos.
+                </p>
+              </div>
+            </div>
+
+            <!-- Proyecto 2 -->
+            <div
+              class="border-2 border-cyan-400 bg-black/60 rounded-xl shadow-[0_0_10px_#00bfff] overflow-hidden hover:scale-105 transition-transform duration-300"
+            >
+              <a href="./practicas/antes/practica2/index.html">
+                <img
+                  src="./practicas/antes/practica2/img/practica2.jpeg"
+                  alt="Practica 2"
+                  class="w-full h-44 sm:h-48 object-cover"
+                />
+              </a>
+              <div class="p-4">
+                <h4 class="text-lg sm:text-xl font-bold mb-1">Practica 2</h4>
+                <p class="text-cyan-200 text-sm">
+                  Segunda práctica calificada, aplicando estructuras y estilos
+                  más complejos.
+                </p>
+              </div>
+            </div>
+
+            <!-- Proyecto 3 -->
+            <div
+              class="border-2 border-cyan-400 bg-black/60 rounded-xl shadow-[0_0_10px_#00bfff] overflow-hidden hover:scale-105 transition-transform duration-300"
+            >
+              <a href="./practicas/antes/practica3/index.html">
+                <img
+                  src="./practicas/antes/practica3/img/practica3.jpeg"
+                  alt="Practica 3"
+                  class="w-full h-44 sm:h-48 object-cover"
+                />
+              </a>
+              <div class="p-4">
+                <h4 class="text-lg sm:text-xl font-bold mb-1">Practica 3</h4>
+                <p class="text-cyan-200 text-sm">
+                  Tercera práctica calificada donde consolidé el uso de diseño
+                  responsivo.
+                </p>
+              </div>
+            </div>
+
+            <!-- Proyecto 4 -->
+            <div
+              class="border-2 border-cyan-400 bg-black/60 rounded-xl shadow-[0_0_10px_#00bfff] overflow-hidden hover:scale-105 transition-transform duration-300"
+            >
+              <a href="./practicas/antes/practica4/index.html">
+                <img
+                  src="./practicas/antes/practica4/image/tictactoe.jpeg"
+                  alt="Practica 4"
+                  class="w-full h-44 sm:h-48 object-cover"
+                />
+              </a>
+              <div class="p-4">
+                <h4 class="text-lg sm:text-xl font-bold mb-1">Practica 4</h4>
+                <p class="text-cyan-200 text-sm">
+                  Cuarta práctica calificada: inicio en la lógica y estructura
+                  de interfaces.
+                </p>
+              </div>
             </div>
           </div>
-          <!-- proyecto2 -->
-          <div
-            class="border-2 border-cyan-400 bg-black/60 rounded-lg shadow-[0_0_10px_#00bfff] overflow-hidden hover:scale-105 transition"
-          >
-            <a href="./proyectos/proyecto2/index.html">
-              <img
-                src="./proyectos/proyecto2/img/practica2.jpeg"
-                alt="Proyecto 2"
-                class="w-full h-40 object-cover"
-              />
-            </a>
+        </div>
 
-            <div class="p-4">
-              <a href="./proyectos/proyecto2/index.html">
-                <h3 class="text-xl font-bold">Proyecto 2</h3>
-              </a>
-              <p class="text-cyan-200 text-sm">
-                Esta es la Segunda Practica Calificada de Desarrollo web de
-                Funval.
-              </p>
-            </div>
+        <!-- Línea divisoria -->
+        <div class="relative my-14 flex items-center justify-center">
+          <div class="border-t-2 border-cyan-400 w-full opacity-40"></div>
+          <span
+            class="absolute bg-black text-cyan-300 text-xs sm:text-sm font-semibold px-3"
+          >
+            Evolución → Aplicando nuevos conocimientos
+          </span>
+        </div>
+
+        <!-- Etapa 2: Crecimiento -->
+        <div>
+          <div class="text-center mb-6">
+            <h3 class="text-2xl font-semibold text-cyan-400">
+              Etapa de Crecimiento
+            </h3>
+            <p class="text-cyan-200 mt-2 text-sm sm:text-base px-2">
+              En esta etapa muestro las versiones mejoradas de mis prácticas,
+              aplicando Tailwind CSS y JavaScript para lograr interfaces
+              dinámicas y modernas.
+            </p>
           </div>
-          <!-- proyecto3 -->
-          <div
-            class="border-2 border-cyan-400 bg-black/60 rounded-lg shadow-[0_0_10px_#00bfff] overflow-hidden hover:scale-105 transition"
-          >
-            <a href="./proyectos/proyecto3/index.html">
-              <img
-                src="./proyectos/proyecto3/img/practica3.jpeg"
-                alt="Proyecto 3"
-                class="w-full h-40 object-cover"
-              />
-            </a>
 
-            <div class="p-4">
-              <a href="./proyectos/proyecto3/index.html">
-                <h3 class="text-xl font-bold">Proyecto 3</h3>
+          <!-- Grid de proyectos mejorados -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <!-- Proyecto 1 Mejorado -->
+            <div
+              class="relative border-2 border-cyan-400 bg-gradient-to-br from-black/80 to-cyan-900/40 rounded-xl shadow-[0_0_20px_#00bfff] overflow-hidden hover:scale-105 transition-transform duration-300"
+            >
+              <a href="./practicas/despues/practica1/index.html">
+                <img
+                  src="./practicas/despues/practica1/img/selfie.jpeg"
+                  alt="Proyecto 1 Mejorado"
+                  class="w-full h-44 sm:h-48 object-cover opacity-90 hover:opacity-100 transition"
+                />
               </a>
-              <p class="text-cyan-200 text-sm">
-                Esta es la Tercera Práctica Calificada de Desarrollo web de
-                Funval.
-              </p>
+              <div class="p-4">
+                <h4 class="text-lg sm:text-xl font-bold mb-1">
+                  Proyecto 1 – Versión Mejorada
+                </h4>
+                <p class="text-cyan-200 text-sm">
+                  Rediseñado con Tailwind CSS y animaciones interactivas con
+                  JavaScript.
+                </p>
+                <span
+                  class="absolute top-2 right-2 bg-cyan-500 text-black text-[10px] sm:text-xs font-semibold px-2 py-1 rounded-lg shadow-md"
+                  >Mejorado</span
+                >
+              </div>
             </div>
-          </div>
-          <!-- proyecto4 -->
-          <div
-            class="border-2 border-cyan-400 bg-black/60 rounded-lg shadow-[0_0_10px_#00bfff] overflow-hidden hover:scale-105 transition"
-          >
-            <a href="./proyectos/proyecto4/index.html">
-              <img
-                src="./proyectos/proyecto4/image/tictactoe.jpeg"
-                alt="Proyecto 4"
-                class="w-full h-40 object-cover"
-              />
-            </a>
 
-            <div class="p-4">
-              <a href="./proyectos/proyecto4/index.html">
-                <h3 class="text-xl font-bold">Proyecto 4</h3>
+            <!-- Proyecto 2 Mejorado -->
+            <div
+              class="relative border-2 border-cyan-400 bg-gradient-to-br from-black/80 to-cyan-900/40 rounded-xl shadow-[0_0_20px_#00bfff] overflow-hidden hover:scale-105 transition-transform duration-300"
+            >
+              <a href="./practicas/despues/practica2/index.html">
+                <img
+                  src="./practicas/despues/practica2/img/preview.png"
+                  alt="Proyecto 2 Mejorado"
+                  class="w-full h-44 sm:h-48 object-contain opacity-90 hover:opacity-100 transition"
+                />
               </a>
-              <p class="text-cyan-200 text-sm">
-                Esta es la Cuarta Practica Calificada de Desarrollo web de
-                Funval.
-              </p>
+              <div class="p-4">
+                <h4 class="text-lg sm:text-xl font-bold mb-1">
+                  Proyecto 2 – Versión Mejorada
+                </h4>
+                <p class="text-cyan-200 text-sm">
+                  Diseño responsive optimizado y elementos interactivos con
+                  JavaScript.
+                </p>
+                <span
+                  class="absolute top-2 right-2 bg-cyan-500 text-black text-[10px] sm:text-xs font-semibold px-2 py-1 rounded-lg shadow-md"
+                  >Mejorado</span
+                >
+              </div>
+            </div>
+
+            <!-- Proyecto 3 Mejorado -->
+            <div
+              class="relative border-2 border-cyan-400 bg-gradient-to-br from-black/80 to-cyan-900/40 rounded-xl shadow-[0_0_20px_#00bfff] overflow-hidden hover:scale-105 transition-transform duration-300"
+            >
+              <a href="./practicas/despues/practica3/index.html">
+                <img
+                  src="./practicas/despues/practica3/img/preview.png"
+                  alt="Proyecto 3 Mejorado"
+                  class="w-full h-44 sm:h-48 object-cover opacity-90 hover:opacity-100 transition"
+                />
+              </a>
+              <div class="p-4">
+                <h4 class="text-lg sm:text-xl font-bold mb-1">
+                  Proyecto 3 – Versión Mejorada
+                </h4>
+                <p class="text-cyan-200 text-sm">
+                  Rediseño con mejores prácticas en estructura, tipografía y
+                  paleta de colores.
+                </p>
+                <span
+                  class="absolute top-2 right-2 bg-cyan-500 text-black text-[10px] sm:text-xs font-semibold px-2 py-1 rounded-lg shadow-md"
+                  >Mejorado</span
+                >
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
+    <footer class="bg-black text-white py-4">
+      <div class="max-w-5xl mx-auto text-center">
+        <p>© 2025 3XC4L1BUR</p>
+        <p>Inspirado en Sword Art Online</p>
+      </div>
+    </footer>
   </body>
 </html>

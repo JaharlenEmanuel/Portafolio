@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Práctica 2 - Registro Epic Games</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+
+  <body
+    class="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-gray-800 to-black text-gray-100 p-4"
+  >
+    <div
+      class="w-full max-w-md bg-gray-800 bg-opacity-90 backdrop-blur-lg rounded-2xl shadow-xl p-6 md:p-8 space-y-6"
+    >
+      <!-- Logo -->
+      <div class="flex justify-center">
+        <img src="./img/epic.png" alt="Epic Games Logo" class="w-20 md:w-24" />
+      </div>
+
+      <!-- Redes sociales -->
+      <div class="flex justify-center gap-3">
+        <a href="https://www.facebook.com/epicgames/?locale=es_LA">
+          <img
+            src="./img/facebook.jpeg"
+            alt="Facebook"
+            class="w-8 h-8 rounded-full hover:scale-110 transition"
+          />
+        </a>
+        <a href="#"
+          ><img
+            src="./img/google.png"
+            alt="Google"
+            class="w-8 h-8 rounded-full hover:scale-110 transition"
+        /></a>
+        <a href="#"
+          ><img
+            src="./img/play.png"
+            alt="PlayStation"
+            class="w-8 h-8 rounded-full hover:scale-110 transition"
+        /></a>
+        <a href="#"
+          ><img
+            src="./img/xbox.png"
+            alt="Xbox"
+            class="w-8 h-8 rounded-full hover:scale-110 transition"
+        /></a>
+        <a href="#"
+          ><img
+            src="./img/nintendo.png"
+            alt="Nintendo"
+            class="w-8 h-8 rounded-full hover:scale-110 transition"
+        /></a>
+      </div>
+
+      <h3 class="text-center text-2xl font-bold text-white tracking-wide">
+        Registrarse
+      </h3>
+
+      <form class="space-y-4">
+        <!-- País -->
+        <select
+          required
+          class="w-full bg-gray-700 text-gray-100 p-3 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+        >
+          <option value="">Selecciona tu país</option>
+          <option value="argentina">Argentina</option>
+          <option value="peru">Perú</option>
+          <option value="mexico">México</option>
+          <option value="chile">Chile</option>
+        </select>
+
+        <!-- Nombre y apellido -->
+        <div class="flex flex-col sm:flex-row gap-3">
+          <input
+            type="text"
+            placeholder="Nombre"
+            required
+            class="w-full bg-gray-700 text-gray-100 p-3 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+          />
+          <input
+            type="text"
+            placeholder="Apellidos"
+            required
+            class="w-full bg-gray-700 text-gray-100 p-3 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+          />
+        </div>
+
+        <!-- Usuario, email y contraseña -->
+        <input
+          type="text"
+          placeholder="Nombre de usuario"
+          required
+          class="w-full bg-gray-700 text-gray-100 p-3 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+        />
+        <input
+          type="email"
+          placeholder="Correo electrónico"
+          required
+          class="w-full bg-gray-700 text-gray-100 p-3 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+        />
+        <input
+          type="password"
+          placeholder="Contraseña"
+          required
+          class="w-full bg-gray-700 text-gray-100 p-3 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:outline-none"
+        />
+
+        <!-- Checkboxes -->
+        <label class="flex items-start gap-2 text-sm text-gray-300">
+          <input type="checkbox" class="mt-1" />
+          <span
+            >Me gustaría recibir noticias, encuestas y ofertas especiales de
+            Epic Games.</span
+          >
+        </label>
+
+        <label class="flex items-start gap-2 text-sm text-gray-300">
+          <input type="checkbox" required class="mt-1" />
+          <span
+            >He leído y acepto los
+            <a href="#" class="text-indigo-400 hover:underline"
+              >términos de servicio</a
+            >.</span
+          >
+        </label>
+
+        <!-- Botón -->
+        <button
+          type="submit"
+          class="w-full bg-indigo-600 hover:bg-indigo-700 transition text-white font-semibold p-3 rounded-lg shadow-md"
+        >
+          Crear Cuenta
+        </button>
+      </form>
+
+      <!-- Footer -->
+      <div class="text-center text-sm text-gray-400 space-y-2">
+        <a href="#" class="hover:text-indigo-400 transition"
+          >Política de privacidad</a
+        >
+        <p>
+          ¿Ya tienes una cuenta?
+          <a href="#" class="text-indigo-400 hover:underline">Iniciar sesión</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

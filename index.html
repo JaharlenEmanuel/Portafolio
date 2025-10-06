@@ -34,6 +34,8 @@
       <a href="#inicio" class="hover:text-cyan-400"> Inicio </a>
       <a href="#sobre-mi" class="hover:text-cyan-400"> Sobre mí </a>
       <a href="#habilidades" class="hover:text-cyan-400"> Habilidades </a>
+      <a href="#recorrido" class="hover:text-cyan-400"> Mi Recorrido </a>
+
       <a href="#proyectos" class="hover:text-cyan-400"> Proyectos </a>
 
       <a href="#contacto" class="hover:text-cyan-400"> Contacto </a>
@@ -63,7 +65,7 @@
           tecnología y creatividad.
         </p>
       </section>
-      <!-- habilidades -->
+      <!-- Mis Habilidades -->
       <section
         id="habilidades"
         class="max-w-5xl mx-auto p-10 mb-12 rounded-lg border-2 border-b-cyan-400 shadow-[0_0_15px_#00bfff]"
@@ -90,19 +92,20 @@
             />
             <p class="mt-2">CSS3</p>
           </div>
-          <div class="flex flex-col items-center">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
-              class="w-16 h-16"
-            />
-            <p class="mt-2">JavaScript</p>
-          </div>
+
           <div class="flex flex-col items-center">
             <img
               src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg"
               class="w-16 h-16"
             />
             <p class="mt-2">Tailwind CSS</p>
+          </div>
+          <div class="flex flex-col items-center">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
+              class="w-16 h-16"
+            />
+            <p class="mt-2">JavaScript</p>
           </div>
         </div>
       </section>
@@ -318,6 +321,100 @@
             </div>
           </div>
         </div>
+      </section>
+      <!-- Formulario -->
+      <section
+        id="contacto"
+        class="max-w-6xl mx-auto px-5 py-10 m-t-10 text-white md:rounded-lg md:border-2 md:border-b-cyan-400 md:shadow-[0_0_15px_#00bfff]"
+      >
+        <form
+          action="#"
+          method="POST"
+          class="max-w-6xl mx-auto px-5 py-10 text-white md:rounded-lg md:border-2 md:border-b-cyan-400 md:shadow-[0_0_15px_#00bfff]"
+        >
+          <h2
+            class="text-2xl font-bold text-center text-cyan-400 drop-shadow-[0_0_8px_#00bfff]"
+          >
+            Contacto
+          </h2>
+          <p class="text-center text-sm text-cyan-200">
+            Deja tu mensaje desde el Nexo del Sistema.
+          </p>
+
+          <!-- Nombre -->
+          <div>
+            <label for="nombre" class="block text-sm mb-1 text-cyan-300"
+              >Nombre</label
+            >
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ingresa tu nombre"
+              required
+              class="w-full px-3 py-2 bg-black/70 border border-cyan-400 rounded-md text-sm text-white placeholder-cyan-300 focus:outline-none focus:ring-2 focus:ring-cyan-400 transition"
+            />
+          </div>
+
+          <!-- Correo -->
+          <div>
+            <label for="correo" class="block text-sm mb-1 text-cyan-300"
+              >Correo electrónico</label
+            >
+            <input
+              type="email"
+              id="correo"
+              name="correo"
+              placeholder="tunombre@ejemplo.com"
+              required
+              class="w-full px-3 py-2 bg-black/70 border border-cyan-400 rounded-md text-sm text-white placeholder-cyan-300 focus:outline-none focus:ring-2 focus:ring-cyan-400 transition"
+            />
+          </div>
+
+          <!-- Asunto -->
+          <div>
+            <label for="asunto" class="block text-sm mb-1 text-cyan-300"
+              >Asunto</label
+            >
+            <input
+              type="text"
+              id="asunto"
+              name="asunto"
+              placeholder="Asunto del mensaje"
+              required
+              class="w-full px-3 py-2 bg-black/70 border border-cyan-400 rounded-md text-sm text-white placeholder-cyan-300 focus:outline-none focus:ring-2 focus:ring-cyan-400 transition"
+            />
+          </div>
+
+          <!-- Mensaje -->
+          <div>
+            <label for="mensaje" class="block text-sm mb-1 text-cyan-300"
+              >Mensaje</label
+            >
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              rows="4"
+              placeholder="Escribe tu mensaje..."
+              required
+              class="w-full px-3 py-2 bg-black/70 border border-cyan-400 rounded-md text-sm text-white placeholder-cyan-300 resize-none focus:outline-none focus:ring-2 focus:ring-cyan-400 transition"
+            ></textarea>
+          </div>
+
+          <!-- Botón -->
+          <div class="text-center">
+            <button
+              type="submit"
+              class="bg-cyan-500 text-black font-semibold px-6 py-2 rounded-md text-sm shadow-[0_0_10px_#00bfff] hover:bg-cyan-400 hover:scale-105 transition-all"
+            >
+              Enviar mensaje
+            </button>
+          </div>
+
+          <p class="text-xs text-center text-cyan-300 mt-3">
+            Sistema seguro • Sword Art Online Network © 2025
+          </p>
+        </form>
       </section>
     </main>
     <footer class="bg-black text-white py-4">

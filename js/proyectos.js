@@ -3,48 +3,48 @@ const proyectos = {
         {
             titulo: "Práctica 1",
             descripcion: "Mi primera práctica desarrollada con HTML y CSS básicos.",
-            imagen: "../practicas/antes/practica1/img/selfie.jpeg",
-            enlace: "../practicas/antes/practica1/index.html"
+            imagen: "./practicas/antes/practica1/img/selfie.jpeg",
+            enlace: "./practicas/antes/practica1/index.html"
         },
         {
             titulo: "Práctica 2",
             descripcion: "Segunda práctica calificada, aplicando estructuras y estilos más complejos.",
-            imagen: "../practicas/antes/practica2/img/practica2.jpeg",
-            enlace: "../practicas/antes/practica2/index.html"
+            imagen: "./practicas/antes/practica2/img/practica2.jpeg",
+            enlace: "./practicas/antes/practica2/index.html"
         },
         {
             titulo: "Práctica 3",
             descripcion: "Tercera práctica calificada donde hice uso de etiquetas y css un poco más estructurado.",
-            imagen: "../practicas/antes/practica3/img/practica3.jpeg",
-            enlace: "../practicas/antes/practica3/index.html"
+            imagen: "./practicas/antes/practica3/img/practica3.jpeg",
+            enlace: "./practicas/antes/practica3/index.html"
         },
         {
             titulo: "Práctica 4",
             descripcion: "Cuarta práctica calificada donde consolidé el uso de diseño responsivo.",
-            imagen: "../practicas/antes/practica4/image/tictactoe.jpeg",
-            enlace: "../practicas/antes/practica4/index.html"
+            imagen: "./practicas/antes/practica4/image/tictactoe.jpeg",
+            enlace: "./practicas/antes/practica4/index.html"
         },
     ],
     crecimiento: [
         {
             titulo: "Proyecto 1 – Versión Mejorada",
             descripcion: "Rediseñado con Tailwind CSS y animaciones interactivas con JavaScript.",
-            imagen: "../practicas/despues/practica1/img/selfie.jpeg",
-            enlace: "../practicas/despues/practica1/index.html",
+            imagen: "./practicas/despues/practica1/img/selfie.jpeg",
+            enlace: "./practicas/despues/practica1/index.html",
             mejorado: true
         },
         {
             titulo: "Proyecto 2 – Versión Mejorada",
             descripcion: "Diseño responsive optimizado y elementos interactivos con JavaScript.",
-            imagen: "../practicas/despues/practica2/img/preview.png",
-            enlace: "../practicas/despues/practica2/index.html",
+            imagen: "./practicas/despues/practica2/img/preview.png",
+            enlace: "./practicas/despues/practica2/index.html",
             mejorado: true
         },
         {
             titulo: "Proyecto 3 – Versión Mejorada",
             descripcion: "Rediseño con mejores prácticas en estructura, tipografía y paleta de colores.",
-            imagen: "../practicas/despues/practica3/img/preview.png",
-            enlace: "../practicas/despues/practica3/index.html",
+            imagen: "./practicas/despues/practica3/img/preview.png",
+            enlace: "./practicas/despues/practica3/index.html",
             mejorado: true
         }
     ]
@@ -129,7 +129,7 @@ function cargarProyectosDestacados() {
 
         <!-- Botón para ver todos los proyectos -->
         <div class="text-center">
-            <a href="./html/proyectos.html" 
+            <a href="./proyectos.html" 
                class="inline-flex items-center gap-3 bg-cyan-500 hover:bg-cyan-400 text-black font-bold text-lg px-8 py-4 rounded-xl shadow-[0_0_20px_#00bfff] hover:shadow-[0_0_30px_#00bfff] transition-all duration-300 transform hover:scale-105 group">
                 <span>Ver Todos Mis Proyectos</span>
                 <svg class="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">

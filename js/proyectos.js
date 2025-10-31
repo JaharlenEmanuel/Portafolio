@@ -46,6 +46,13 @@ const proyectos = {
             imagen: "./practicas/despues/practica3/img/preview.png",
             enlace: "./practicas/despues/practica3/index.html",
             mejorado: true
+        },
+        {
+            titulo: "Proyecto Final",
+            descripcion: "Proyecto Windbnb",
+            imagen: "./practicas/despues/proyecto-final/src/images/disign/image.png",
+            enlace: "./practicas/despues/proyecto-final/index.html",
+            mejorado: true
         }
     ]
 };

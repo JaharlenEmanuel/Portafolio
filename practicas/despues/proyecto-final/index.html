@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/output.css">
+    <script src="./src/scripts/main.js" defer type="module"></script>
+    <title>PF Windbnd Vanilla</title>
+</head>
+<body class="min-w-full text-gray-800 flex flex-col relative">
+    <div class="bg-white min-h-screen w-full">
+        <header class="flex items-center justify-between bg-[#FFFFFF] h-[130px] w-full gap-8 p-8">
+            <img src="./src/images/icons/logo-f7862584.svg" alt="logo" class="w-25">
+
+            <div id="openModal" class=" bg-white inset-shadow-2xs shadow rounded-xl h-12 w-70 flex ">
+                <button class="flex inset-shadow-2xs h-full w-full cursor-pointer">
+                    <div id="div-ciudad" class="h-full w-[45%] inset-shadow-2xs shadow-xs rounded-l-xl text-gray-400 flex items-center justify-center text-sm">
+                        Helsinki, Finland
+                    </div>
+                <div id="div-huesped" class="h-full  w-[39%] flex  items-center justify-center text-black/30 text-sm inset-shadow-2xs shadow ">
+                    Add Guest
+                </div>
+                <div class="h-full w-[16%] inset-shadow-2xs shadow-xs rounded-r-xl flex items-center justify-center ">
+                    <img src="./src/images/icons/search.svg" alt="" class="w-6">
+                </div>
+                </button>  
+            </div>
+        </header>
+        <div id="room-list">
+            <header id="cabecera" class="flex items-center justify-between px-8">
+                                     
+            </header>
+            <div id="container-stays" class="grid grid-cols-1 place-items-center p-8 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                
+            </div>
+        </div>
+        <div id="modal-filtro" class="p-4 w-full h-4/5  fixed inset-0 bg-black/50 z-50 bg-white md:h-100 md:flex-row hidden">
+            <div id="container-filtro" class="w-full flex flex-col gap-3 p-3 items-center justify-center">
+                <header class="flex items-center justify-between w-full">
+                    <div class="flex items-center justify-star">
+                    <h2 class="font-bold text-xl">Edita tu busqueda</h2>
+                    </div>
+                    <button id="cerrarModal" class="flex items-center text-xl font-montserrat size-[14px]">
+                        x
+                    </button>
+                </header>
+                <div class="md:flex md:flex-row md:mb-4 md:gap-24 w-full md:justify-between md:rounded-lg md:shadow-lg md:h-15 flex flex-col">
+                    <div class="p-0 relative   md:w-2/5 h-full shadow-sm">
+                            <label class="block text-xs font-bold uppercase mb-1">CIUDAD</label>
+                            <input 
+                                type="text" 
+                                id="input-ciudad" 
+                                placeholder="Helsinki, Finland" 
+                                class="focus:outline text-sm p-2 w-full"
+                                required
+                            >
+                        <div id="sugerencias" class="absolute mb-6 left-0 right-0 top-full mt-1 bg-white border border-gray-300 rounded-lg shadow-lg z-10 hidden">
+                            <!-- Las sugerencias se cargarán aquí dinámicamente -->
+                        </div>
+                    </div>
+                    <div class="relative md:w-2/5">
+                            <label class="block text-xs font-bold uppercase mb-1">Huéspedes</label>
+                            <button id="btn-huesped" class="text-gray-500 cursor-pointer">Ingrese la Cantidad de Huespedes</button>
+                        
+                        <div id="agg-huespedes" class="absolute md:left-0 md:mt-9 md:p-3 md:w-full md:z-10 hidden">
+                            <!-- Las sugerencias se cargarán aquí dinámicamente -->
+                        </div>
+                    </div>
+                    <button id="btn-buscar" class="w-1/5 flex items-center justify-center bg-red-400 border mt-3 rounded-xl p-3 gap-2 text-white">
+                        <img src="./src/images/icons/search.svg" class="size-4" alt="">
+                        Buscar
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
